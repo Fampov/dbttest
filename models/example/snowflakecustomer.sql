@@ -1,0 +1,1 @@
+Select * from TPCH_SF10000.Customer
