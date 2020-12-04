@@ -1,1 +1,1 @@
-Select * from TPCH_SF10000.Customer
+Select * from SNOWFLAKE_SAMPLE_DATA.TPCH_SF10000.Customer
