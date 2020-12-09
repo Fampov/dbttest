@@ -1,0 +1,18 @@
+version: 2
+
+models:
+    - name: Customer
+      description: "Separate test of a yml file for a differing model"
+      columns:
+          - name: C_CUSTKEY
+          - name: C_NAME
+          - name: C_ADDRESS
+          - name: C_NATIONKEY
+            description: "Key from the nations"
+            tests:
+                - not_null
+          - name: C_PHONE
+          - name: C_ACCTBAL
+          - name: C_MKTSEGMENT
+          - name: C_COMMENT
+            description: "Another test"
